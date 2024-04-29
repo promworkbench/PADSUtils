@@ -21,9 +21,9 @@ import javax.swing.event.ListSelectionListener;
 
 import org.processmining.contexts.uitopia.UIPluginContext;
 import org.processmining.framework.util.ui.widgets.ProMList;
-import org.processmining.newpackageivy.models.YourFirstInput;
-import org.processmining.newpackageivy.models.YourSecondInput;
-import org.processmining.newpackageivy.parameters.YourParameters;
+import org.processmining.padsutils.models.YourFirstInput;
+import org.processmining.padsutils.models.YourSecondInput;
+import org.processmining.padsutils.parameters.YourParameters;
 
 import com.fluxicon.slickerbox.components.NiceSlider;
 import com.fluxicon.slickerbox.components.NiceSlider.Orientation;

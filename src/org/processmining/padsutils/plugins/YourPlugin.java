@@ -9,14 +9,14 @@ import org.processmining.framework.connections.ConnectionCannotBeObtained;
 import org.processmining.framework.plugin.PluginContext;
 import org.processmining.framework.plugin.annotations.Plugin;
 import org.processmining.framework.plugin.annotations.PluginVariant;
-import org.processmining.newpackageivy.algorithms.YourAlgorithm;
-import org.processmining.newpackageivy.connections.YourConnection;
-import org.processmining.newpackageivy.dialogs.YourDialog;
-import org.processmining.newpackageivy.help.YourHelp;
-import org.processmining.newpackageivy.models.YourFirstInput;
-import org.processmining.newpackageivy.models.YourOutput;
-import org.processmining.newpackageivy.models.YourSecondInput;
-import org.processmining.newpackageivy.parameters.YourParameters;
+import org.processmining.padsutils.algorithms.YourAlgorithm;
+import org.processmining.padsutils.connections.YourConnection;
+import org.processmining.padsutils.dialogs.YourDialog;
+import org.processmining.padsutils.help.YourHelp;
+import org.processmining.padsutils.models.YourFirstInput;
+import org.processmining.padsutils.models.YourOutput;
+import org.processmining.padsutils.models.YourSecondInput;
+import org.processmining.padsutils.parameters.YourParameters;
 
 @Plugin(name = "Your plug-in name", parameterLabels = { "Name of your first input", "Name of your second input", "Name of your parameters" }, 
 	    returnLabels = { "Name of your output" }, returnTypes = { YourOutput.class }, help = YourHelp.TEXT)

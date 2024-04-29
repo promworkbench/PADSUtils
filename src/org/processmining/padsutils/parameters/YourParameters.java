@@ -1,8 +1,8 @@
 package org.processmining.padsutils.parameters;
 
 import org.processmining.basicutils.parameters.impl.PluginParametersImpl;
-import org.processmining.newpackageivy.models.YourFirstInput;
-import org.processmining.newpackageivy.models.YourSecondInput;
+import org.processmining.padsutils.models.YourFirstInput;
+import org.processmining.padsutils.models.YourSecondInput;
 
 public class YourParameters extends PluginParametersImpl {
 
